@@ -1,4 +1,6 @@
-.toast {
+.simpleToast {
+    --toast-opacity-transition-time: 1000ms;
+    
     position: fixed;
     top: 80%;
     left: 50%;
@@ -6,18 +8,15 @@
 
     padding: 10px 20px;
     border-radius: 5px;
-    opacity: 1;
-    visibility: visible;
-    transition: opacity 0.5s, visibility 0.5s;
+    opacity: 0;
+    transition: opacity var(--toast-opacity-transition-time);
     z-index: 1000;
     text-align: center;
 
-    &.autocolor{
-    color: var(--color8);
-    background-color: var(--color15);
+    color: ghostwhite;
+    background-color: rgba(0, 0, 0, 0.60);
   }
-  }
-  .toast-content {
+  .simpleToast-content {
     font-size: 16px;
     word-wrap: break-word;
   }

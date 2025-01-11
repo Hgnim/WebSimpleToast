@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    padding: 5px;
+    margin: 5px;
+}
+.button-2{
+    color:aqua;
+    background-color:  rgba(0, 128, 0, 0.60);
+}
+.button-3{
+    position: relative;
+}
+.button-4{
+    font-size: 100px;
+}
