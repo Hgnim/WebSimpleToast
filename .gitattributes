@@ -1,0 +1,2 @@
+dist/js/*.js linguist-language=javascript
+dist/css/*.css linguist-language=css
