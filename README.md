@@ -33,7 +33,7 @@ WebSimpleToast是一个用于web中的轻量吐司框库。\
 ### 函数定义
 
 ``` javascript
-async function showToast(message,duration = 3000,toast_class = "",toastContent_class = "",parentId = null)
+async function showToast(message,duration = 3000,toast_class = "",toastContent_class = "",parentId = null,finish=()=>{})
 ```
 
 - `message`: 要在吐司框内显示的文本内容
@@ -42,6 +42,7 @@ async function showToast(message,duration = 3000,toast_class = "",toastContent_c
 - `toastContent_class`: 吐司框内容需要额外添加的css类
 - `parentId`: 需要将吐司框添加至的父容器ID
   - 如果值为`null`(默认)，则添加至`<body>`
+- `finish`: 在吐司框消失后，将会调用此回调函数。
 
 ### 示例
 

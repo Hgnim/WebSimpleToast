@@ -26,7 +26,7 @@ The following methods can be used to introduce this library:
 ### Function definition
 
 ``` javascript
-async function showToast(message,duration = 3000,toast_class = "",toastContent_class = "",parentId = null)
+async function showToast(message,duration = 3000,toast_class = "",toastContent_class = "",parentId = null,finish=()=>{})
 ```
 
 - `message`: The text content to be displayed within the toast box
@@ -35,6 +35,7 @@ async function showToast(message,duration = 3000,toast_class = "",toastContent_c
 - `toastContent_class`: Toast box content requires additional CSS classes to be added
 - `parentId`: The parent container ID to which the toast box needs to be added
   - If the value is `null` (default), add to `<body>`
+- `finish`: This callback function will be called after the toastbox disappears.
 
 ### Example
 
