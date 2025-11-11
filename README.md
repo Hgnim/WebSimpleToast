@@ -35,7 +35,7 @@ WebSimpleToast是一个用于web中的轻量吐司框库。\
   或
 
   ```sh
-  npm install hgnim/WebSimpleToast#1.2.0
+  npm install hgnim/WebSimpleToast#1.1.1
   ```
 
 - 克隆此仓库

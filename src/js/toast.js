@@ -1,4 +1,4 @@
-async function showToast(
+export async function showToast(
   message,
   duration = 3000,
   toast_class = "",

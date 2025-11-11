@@ -28,7 +28,7 @@ The following methods can be used to introduce this library:
   or
 
   ```sh
-  npm install hgnim/WebSimpleToast#1.2.0
+  npm install hgnim/WebSimpleToast#1.1.1
   ```
 
 - Clone this repository
