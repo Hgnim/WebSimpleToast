@@ -19,6 +19,18 @@ The following methods can be used to introduce this library:
   <script src="https://cdn.jsdelivr.net/gh/hgnim/WebSimpleToast@1.0.0/dist/js/toast.min.js" type="text/javascript"></script>
   ```
 
+- Install from GitHub using npm
+
+  ```sh
+  npm install hgnim/WebSimpleToast
+  ```
+
+  or
+
+  ```sh
+  npm install hgnim/WebSimpleToast#1.2.0
+  ```
+
 - Clone this repository
 
 ## Use

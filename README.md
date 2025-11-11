@@ -26,6 +26,18 @@ WebSimpleToast是一个用于web中的轻量吐司框库。\
     <script src="https://fastly.jsdelivr.net/gh/hgnim/WebSimpleToast@1.0.0/dist/js/toast.min.js" type="text/javascript"></script>
     ```
 
+- 使用npm从github安装
+
+  ```sh
+  npm install hgnim/WebSimpleToast
+  ```
+
+  或
+
+  ```sh
+  npm install hgnim/WebSimpleToast#1.2.0
+  ```
+
 - 克隆此仓库
 
 ## 使用
